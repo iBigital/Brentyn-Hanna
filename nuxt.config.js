@@ -4,18 +4,18 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Brentyn Hanna's Portfolio",
+    title: "Brentyn Hanna",
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Brentyn Hanna's personal website. Includes Brentyn's resume, work experience, and portfolio." },
+      { hid: 'description', name: 'description', content: "Brentyn Hanna's personal website. Includes everything about Brentyn Hanna, including resume, work experience, and portfolio." },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ]
   },
 

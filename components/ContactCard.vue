@@ -34,13 +34,13 @@
         <h3>Email :</h3>
       </div>
       <div class="half-split">
-        <p>Brentyn@iBigital.com</p>
+        <p>brent.hanna@gmail.com</p>
       </div>
       <div class="half-split">
         <h3>Located :</h3>
       </div>
       <div class="half-split">
-        <p>Las Vegas, Nevada</p>
+        <p>West Coast, United States</p>
       </div>
     </div>
   </div>

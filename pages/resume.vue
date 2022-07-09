@@ -1,9 +1,17 @@
 <template>
   <div>
-    <section class="text-center">
-      <h1>Portfolio</h1>
+    <h1 class="text-center"> Resume </h1>
+    <section>
+      <h2 class="text-center"> PDF File </h2>
+      <object data="assets/01resume_BrentynHanna.pdf" alt="Brentyn's Resume" type="application/pdf"
+        class="text-center">
+        <p> It appears you don't have a PDF plugin for this browser. No biggie... you can
+          <a href="assets/pdfs/events.pdf">click here to download the PDF file.</a>
+        </p>
+      </object>
     </section>
     <section>
+      <h2 class="text-center"> Bigital </h2>
       <p class="text-center"> Websites: </p>
       <ExtendedCard
         title="Bigital's Portfolio"
@@ -55,7 +63,7 @@
       />
     </section>
     <section>
-      <p class="text-center"> Collaborative Projects: </p>
+      <h2 class="text-center"> Collaborative Projects </h2>
       <ExtendedCard
         title="Todo Simply"
         description="Todo list made with React, Node, and MongoDB. Special thanks to Daniel Ventura."
@@ -81,7 +89,7 @@
       />
     </section>
     <section>
-      <p class="text-center"> Useful Software: </p>
+      <h2 class="text-center"> Useful Tools </h2>
       <ExtendedCard
         title="Email Signature"
         description="Oldfashion email signature using HTML, CSS, and Photoshop."
@@ -103,14 +111,9 @@
         github="https://github.com/Brehtyn/bgit-bweb-skel"
       />
     </section>
-    <section class="text-center">
-      <img
-        src="../assets/common/logo_bigital.png"
-        alt="Bigital's mascot and logo phil giant in all his glory."
-      />
-    </section>
   </div>
 </template>
 
 <style scoped>
+
 </style>

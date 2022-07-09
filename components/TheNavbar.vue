@@ -2,8 +2,8 @@
   <Nav>
     <div class="navbar">
       <NuxtLink to="/"> Home </NuxtLink>
-      <NuxtLink to="/skills"> Skills </NuxtLink>
       <NuxtLink to="/resume"> Resume </NuxtLink>
+      <NuxtLink to="/skills"> Skills </NuxtLink>
       <NuxtLink to="/about"> About </NuxtLink>
       <NuxtLink to="/contact"> Contact </NuxtLink>
     </div>
@@ -15,8 +15,8 @@
     <div v-if="mobileNav" class="mobile_background">
       <div @click="toggleNav" class="mobile_menu">
       <NuxtLink to="/"> Home </NuxtLink>
-      <NuxtLink to="/skills"> Skills </NuxtLink>
       <NuxtLink to="/resume"> Resume </NuxtLink>
+      <NuxtLink to="/skills"> Skills </NuxtLink>
       <NuxtLink to="/about"> About </NuxtLink>
       <NuxtLink to="/contact"> Contact </NuxtLink>
       </div>

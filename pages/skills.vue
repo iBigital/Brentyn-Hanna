@@ -1,23 +1,13 @@
 <template>
   <div>
-    <section>
-      <h1 class="text-center">Service & Skills</h1>
-      <div class="service-intro flex-center-responsive">
-        <img
-          src="../assets/common/logo_bigital.png"
-          width="50%"
-          alt="Phil the Digital Rabbit"
-        />
-        <p>
-          Bigital offers premium software customization and programming for
-          people and businesses that need it! The digital landscape is an
-          absolute wilderness, so hire an expert to safely navigate your way.
-        </p>
-      </div>
-    </section>
+    <h1 class="text-center"> Skills </h1>
 
+    <section class="flex text-center">
+    <h2> Software </h2>
+    <p> I have a passion for software development. I enjoy diving deep into favored languages or programs and picking up new toys to try blazing edge features.</p>
+    </section>
     <section class="text-center bg-plate">
-      <h2>Familiar Toolbox</h2>
+      <h3>Familiar Toolbox</h3>
       <div class="flex-center">
         <DisplayItem
           image="icons/figma.svg"
@@ -40,19 +30,19 @@
           url="https://nuxtjs.org/"
         />
         <DisplayItem
-          image="icons/blazor.png"
-          alt="Blazor's Logo"
-          url="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
-        />
-        <DisplayItem
           image="icons/react-js.svg"
           alt="React's Logo"
           url="https://reactjs.org/"
         />
         <DisplayItem
-          image="icons/css3.svg"
+          image="icons/css3.png"
           alt="CSS3's Logo"
           url="https://developer.mozilla.org/en-US/docs/Web/CSS"
+        />
+        <DisplayItem
+          image="icons/html5.png"
+          alt="HTML5's Logo"
+          url="https://en.wikipedia.org/wiki/HTML"
         />
         <DisplayItem
           image="icons/sass.svg"
@@ -65,24 +55,14 @@
           url="https://cpanel.net/"
         />
         <DisplayItem
-          image="icons/node-js.svg"
-          alt="Node's Logo"
-          url="https://nodejs.org/en/"
-        />
-        <DisplayItem
-          image="icons/netlify.png"
-          alt="Netlify's Logo"
-          url="https://www.netlify.com/"
-        />
-        <DisplayItem
-          image="icons/mongodb.png"
-          alt="MongoDB's Logo"
-          url="https://www.mongodb.com/"
-        />
-        <DisplayItem
           image="icons/javascript.svg"
           alt="Javascript's Logo"
           url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        />
+        <DisplayItem
+          image="icons/ruby.svg"
+          alt="Ruby's Logo"
+          url="https://www.ruby-lang.org/"
         />
         <DisplayItem
           image="icons/golang.svg"
@@ -110,19 +90,54 @@
           url="https://dotnet.microsoft.com/"
         />
         <DisplayItem
+          image="icons/blazor.png"
+          alt="Blazor's Logo"
+          url="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+        />
+        <DisplayItem
           image="icons/c-sharp.svg"
           alt="C#'s Logo"
           url="https://dotnet.microsoft.com/en-us/languages/csharp"
         />
         <DisplayItem
-          image="icons/shopify.svg"
-          alt="Shopify's Logo"
-          url="https://shopify.dev/"
+          image="icons/node-js.svg"
+          alt="Node's Logo"
+          url="https://nodejs.org/en/"
+        />
+        <DisplayItem
+          image="icons/netlify.png"
+          alt="Netlify's Logo"
+          url="https://www.netlify.com/"
+        />
+        <DisplayItem
+          image="icons/firebase.png"
+          alt="Firebase's Logo"
+          url="https://firebase.google.com/"
+        />
+        <DisplayItem
+          image="icons/mongodb.png"
+          alt="MongoDB's Logo"
+          url="https://www.mongodb.com/"
         />
         <DisplayItem
           image="icons/wordpress.svg"
           alt="Wordpress's Logo"
           url="https://wordpress.org/"
+        />
+        <DisplayItem
+          image="icons/elementor.webp"
+          alt="Elementor's Logo"
+          url="https://elementor.com/"
+        />
+        <DisplayItem
+          image="icons/woocommerce.png"
+          alt="Woo Commerces' Logo"
+          url="https://woocommerce.com/"
+        />
+        <DisplayItem
+          image="icons/shopify.svg"
+          alt="Shopify's Logo"
+          url="https://shopify.dev/"
         />
         <DisplayItem
           image="icons/linux.png"
@@ -133,6 +148,11 @@
           image="icons/ubuntu.png"
           alt="Ubuntu's Logo"
           url="https://www.ubuntu.com/"
+        />
+        <DisplayItem
+          image="icons/cheatengine.png"
+          alt="Cheat Engine's Logo"
+          url="https://www.cheatengine.org/"
         />
         <DisplayItem
           image="icons/git.svg"
@@ -175,7 +195,10 @@
           url="https://www.arduino.cc/"
         />
       </div>
-      <h2>Excited to Learn More With</h2>
+    </section>
+
+    <section class="text-center bg-plate">
+      <h3>Excited to Learn More With</h3>
       <div class="flex-center">
         <DisplayItem
           image="icons/golang.svg"
@@ -183,9 +206,14 @@
           url="https://go.dev/"
         />
         <DisplayItem
-          image="icons/node-js.svg"
-          alt="Node's Logo"
-          url="https://nodejs.org/en/"
+          image="icons/ruby.svg"
+          alt="Ruby's Logo"
+          url="https://www.ruby-lang.org/"
+        />
+        <DisplayItem
+          image="icons/rubyonrails.png"
+          alt="Ruby On Rails Logo"
+          url="https://rubyonrails.org/"
         />
         <DisplayItem
           image="icons/sql.png"
@@ -196,6 +224,11 @@
           image="icons/flutter.svg"
           alt="Flutters's Logo"
           url="https://flutter.dev/"
+        />
+        <DisplayItem
+          image="icons/docker.png"
+          alt="Docker's Logo"
+          url="https://www.docker.com/"
         />
         <DisplayItem
           image="icons/kubernetes.svg"
@@ -217,13 +250,10 @@
           alt="Unitys's Logo"
           url="https://unity.com/"
         />
-        <DisplayItem
-          image="icons/ruby.svg"
-          alt="Ruby's Logo"
-          url="https://www.ruby-lang.org/"
-        />
       </div>
     </section>
+
+<h2 class="text-center"> IT & Hardware </h2>
 
     <section class="bg-plate">
       <ExtendedCard
@@ -273,8 +303,7 @@
     </section>
 
     <section class="text-center">
-      <p>More detailed offerings will be avaliable soon.</p>
-
+      <p> Novel, alien, or mysterious? I would love to help! </p>
       <br />
       <img
         src="../assets/strange_meeting.png"
