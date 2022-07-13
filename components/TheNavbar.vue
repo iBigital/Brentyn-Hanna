@@ -1,24 +1,27 @@
 <template>
   <Nav>
     <div class="navbar">
-      <NuxtLink to="/"> Home </NuxtLink>
-      <NuxtLink to="/resume"> Resume </NuxtLink>
-      <NuxtLink to="/skills"> Skills </NuxtLink>
-      <NuxtLink to="/about"> About </NuxtLink>
-      <NuxtLink to="/contact"> Contact </NuxtLink>
+      <div>
+        <NuxtLink to="/"> Home </NuxtLink>
+        <NuxtLink to="/skills"> Skills </NuxtLink>
+        <NuxtLink to="/about"> About </NuxtLink>
+        <a href="/assets/01resume_BrentynHanna.pdf" target="_blank"> Resume </a>
+      </div>
+      <NuxtLink to="/contact" id="special"> Contact </NuxtLink>
     </div>
 
     <button @click="toggleNav">
       <img id="mobile_display" src="assets/menu.svg" alt="menu" width="20px" />
     </button>
 
-    <div v-if="mobileNav" class="mobile_background">
+    <div v-if="mobileNav" @click="toggleNav" class="mobile_background">
       <div @click="toggleNav" class="mobile_menu">
-      <NuxtLink to="/"> Home </NuxtLink>
-      <NuxtLink to="/resume"> Resume </NuxtLink>
-      <NuxtLink to="/skills"> Skills </NuxtLink>
-      <NuxtLink to="/about"> About </NuxtLink>
-      <NuxtLink to="/contact"> Contact </NuxtLink>
+        <NuxtLink to="/"> Home </NuxtLink>
+        <NuxtLink to="/skills"> Skills </NuxtLink>
+        <NuxtLink to="/about"> About </NuxtLink>
+        <a href="/assets/01resume_BrentynHanna.pdf" target="_blank"> Resume </a>
+        <NuxtLink to="/contact"> Contact </NuxtLink>
+        
       </div>
     </div>
   </Nav>
@@ -62,14 +65,20 @@ Nav {
   }
   .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
   }
-  .navbar > a {
+  .navbar > div:first-of-type {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navbar > div > a, #special {
+    padding: 0 1rem;
     text-decoration: none;
   }
-  .navbar > *:hover {
+  .navbar > div > a:hover, #special:hover {
     border-spacing: 4px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12x;

@@ -3,7 +3,7 @@
     <div class="flex-center text-center">
       <p>
         <a href="https://ibigital.com">
-          Bigital
+         Made by Bigital
           <img
             height="12px"
             alt="Bigital Rabbit Logo"

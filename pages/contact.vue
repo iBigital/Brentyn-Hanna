@@ -11,7 +11,7 @@
           </p>
           <p>
             Send a message with relevant details including project, timeline, and
-            budget to begin as soon as today!
+            budget if relevant.
           </p>
         </div>
       </div>

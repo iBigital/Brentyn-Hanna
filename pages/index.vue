@@ -1,12 +1,12 @@
 <template>
   <div>
     <section class="text-center">
-      <h1>Top Class Innovator and Programmer</h1>
+      <h1 id="landing-title">Empathetic Problem Solver</h1>
+      <p>Innovative software and hardware solutions for those who need them.</p>
+    </section>
+    <section class="text-center">
+      <br />
       <div class="flex-center-responsive landing">
-        <img
-          src="../assets/high_flying.png"
-          alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
-        />
         <div class="flex-column">
           <p>
             My name is Brentyn and my portfolio website is under construction.
@@ -14,23 +14,21 @@
           <NuxtLink to="/contact">
             <button class="btn-CTA"><span> Connect Now </span></button>
           </NuxtLink>
+          <button class="btn-CTA"><span> View as Bunny </span></button>
         </div>
+        <img
+          src="../assets/high_flying.png"
+          alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
+        />
       </div>
     </section>
 
     <section class="bg-plate">
       <h2>The Misson:</h2>
-      <div>
-        <p></p>
-      </div>
-    </section>
-    
-    <section class="text-center bg-plate">
-      <h2>Service Packages</h2>
       <p>
         Whether you need a website, mobile app, hosting service, or software
-        consulting, I can craft the solutions your business or great idea
-        needs to get going!
+        consulting, I can craft the solutions your business or great idea needs
+        to get going!
       </p>
       <div class="flex-center-responsive">
         <StandardCard
@@ -58,8 +56,9 @@
         alt="Bigital's mascot and logo phil utilizing Brown's expertise to launch a rocket."
       />
       <p>
-        I strongly believe in the power of collaboration and many things I do wouldn't be
-        possible without massive contribution to open source projects.
+        I strongly believe in the power of collaboration and many things I do
+        wouldn't be possible without massive contribution to open source
+        projects.
         <br />
         <br />
         To see the code running this page (and many other services), feel free
@@ -106,7 +105,7 @@
       </div>
     </section>
 
-     <section class="text-center">
+    <section class="text-center">
       <h3>Community above all else.</h3>
       <img
         src="../assets/table_relief.png"
@@ -115,7 +114,8 @@
       <p>
         Helping others is imperative, no matter where.
         <br />
-        To give back, I help where I can. I'm happy to field any questions. I also offer upto 70% off any of my adjustable business services for
+        To give back, I help where I can. I'm happy to field any questions. I
+        also offer upto 70% off any of my adjustable business services for
         nonprofits, charities, and other giving organizations.
       </p>
     </section>
@@ -132,7 +132,7 @@
           </p>
           <p>
             Send a message with relevant details including project, timeline,
-            and budget to begin as soon as today!
+            and budget if relevant.
           </p>
         </div>
       </div>
@@ -144,7 +144,8 @@
       <p>
         <br />
         I know I always am.
-        <br />   <br> 
+        <br />
+        <br />
         Learn more about what I can do on my
         <wbr />
         <NuxtLink to="/skills">skills page</NuxtLink>
@@ -180,6 +181,15 @@ h6 {
   padding-bottom: 0;
 }
 
+#landing-title {
+  font-size: 3rem;
+  font-weight: bold;
+  background: var(--color-changing);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .landing > img {
   width: 60%;
   height: auto;
@@ -197,6 +207,12 @@ h6 {
 }
 .landing > .flex-column > a > button {
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .landing {
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (min-width: 769px) {
