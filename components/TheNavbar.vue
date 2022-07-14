@@ -15,7 +15,7 @@
     </button>
 
     <div v-if="mobileNav" @click="toggleNav" class="mobile_background">
-      <div @click="toggleNav" class="mobile_menu">
+      <div class="mobile_menu">
         <NuxtLink to="/"> Home </NuxtLink>
         <NuxtLink to="/skills"> Skills </NuxtLink>
         <NuxtLink to="/about"> About </NuxtLink>
@@ -93,6 +93,9 @@ Nav {
   .mobile_menu,
   button {
     display: none;
+  }
+  a {
+    color: #fff;
   }
 }
 

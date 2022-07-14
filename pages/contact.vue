@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="text-center">  
+    <section class="text-center bg-plate">  
       <h1>Contact Anytime</h1>
       <div class="flex-center-responsive">
         <ContactCard />

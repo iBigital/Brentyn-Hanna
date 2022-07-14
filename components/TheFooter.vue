@@ -3,14 +3,7 @@
     <div class="flex-center text-center">
       <p>
         <a href="https://ibigital.com">
-         Made by Bigital
-          <img
-            height="12px"
-            alt="Bigital Rabbit Logo"
-            src="../assets/common/logo_simple_bigital.png"
-          />
-        </a>
-        | © 2022 All Rights Reserved
+          Made by Bigital</a> | © 2022 All Rights Reserved
       </p>
     </div>
   </footer>
@@ -19,10 +12,17 @@
 <style>
 footer {
   font-size: 1rem;
+  color: #fff;
+  background-image: url("../assets/curiosity.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 1px;
 }
 footer > div {
-  padding: 20px;
-  border-top: solid 1px var(--ff-color-neutral);
+  padding: 10px;
+  border-top: solid 1px var(--color-neutral);
   margin: 2rem;
 }
 footer > div > p > a {

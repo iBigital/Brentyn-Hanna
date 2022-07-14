@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1 class="text-center" id="landing-title">Skills</h1>
-      
+
     <section class="flex text-center">
       <h2>Software</h2>
       <p>
-        I have a passion for software development. I enjoy diving deep into
-        favored languages or programs and picking up new toys to try blazing
+        I have a passion for software development: diving deep into
+        favored languages/programs or just exploring new toys to try blazing
         edge features.
       </p>
     </section>
@@ -254,11 +254,20 @@
           alt="Unitys's Logo"
           url="https://unity.com/"
         />
+        <DisplayItem
+          image="icons/cad.png"
+          alt="CAD's Logo"
+          url="https://www.autodesk.com/solutions/cad-software"
+        />
       </div>
     </section>
 
-    <h2 class="text-center">IT & Hardware</h2>
-
+    <section class="flex text-center">
+      <h2>Hardware and IT</h2>
+      <p>
+        Creating unique systems that are easy to use and easier to maintain is my expertise.
+      </p>
+    </section>
     <section class="bg-plate">
       <ExtendedCard
         title="Web Design"
@@ -306,9 +315,13 @@
       />
     </section>
 
-    <section>
-      <h2 class="text-center">Bigital</h2>
-      <p class="text-center">Websites:</p>
+    <section class="text-center">
+      <h2>Leadership</h2>
+      <p>
+       A history of demostratable leadership and willingness to step-up.
+      </p>
+    </section>
+    <section class="bg-plate">
       <ExtendedCard
         title="Bigital's Portfolio"
         description="Wonder where you've seen this before. Running on Nuxt and utilizing loads more."
@@ -358,8 +371,14 @@
         url="http://www.ooofta.com/"
       />
     </section>
-    <section>
-      <h2 class="text-center">Collaborative Projects</h2>
+
+    <section class="text-center">
+      <h2>Collaborative Projects</h2>
+      <p>
+        I've worked on a number of projects with other developers.
+      </p>
+    </section>
+    <section class="bg-plate">
       <ExtendedCard
         title="Todo Simply"
         description="Todo list made with React, Node, and MongoDB. Special thanks to Daniel Ventura."
@@ -382,37 +401,6 @@
         githubAPI="https://github.com/Dvent1123/calisthenics-tracker-api"
         thanksPerson="Dan the Man"
         thanksURL="https://www.venturadaniel.com/"
-      />
-    </section>
-    <section>
-      <h2 class="text-center">Useful Tools</h2>
-      <ExtendedCard
-        title="Email Signature"
-        description="Oldfashion email signature using HTML, CSS, and Photoshop."
-        alt="Screenshot of Email signature."
-        github="https://github.com/Brehtyn/bgit-html-email-sig"
-      />
-      <ExtendedCard
-        id="flip-it"
-        title="Jake LED Box"
-        description="Themed LED box made with Arduino, C++, and adafruit libraries."
-        alt="Screenshot of Email signature."
-        github="https://github.com/Brehtyn/jake-box"
-      />
-      <ExtendedCard
-        title="Basic Web Skeleton"
-        description="For HTML, CSS, and JavaScript websites. Optional PHP contact form."
-        alt="Screenshot of Bweb Skeleton."
-        github="https://github.com/Brehtyn/bgit-bweb-skel"
-      />
-    </section>
-
-    <section class="text-center">
-      <p>Novel, alien, or mysterious? I would love to help!</p>
-      <br />
-      <img
-        src="../assets/strange_meeting.png"
-        alt="Phil, Bigital's Logo, having wide eyes at meeting strange glowing rabbits in a blue alien place. Socks flying rocket. 'Your Data, Your Designer, Your Developer. Your Next Fullstack Expert'"
       />
     </section>
   </div>

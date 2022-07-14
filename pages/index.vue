@@ -3,9 +3,7 @@
     <section class="text-center">
       <h1 id="landing-title">Empathetic Problem Solver</h1>
       <p>Innovative software and hardware solutions for those who need them.</p>
-    </section>
-    <section class="text-center">
-      <br />
+      <br /> <br /> 
       <div class="flex-center-responsive landing">
         <div class="flex-column">
           <p>
@@ -24,27 +22,25 @@
     </section>
 
     <section class="bg-plate">
-      <h2>The Misson:</h2>
+      <h2>What I Do :</h2>
       <p>
-        Whether you need a website, mobile app, hosting service, or software
-        consulting, I can craft the solutions your business or great idea needs
-        to get going!
+        Designing smart solutions for complex problems, from installing hardware to implementing software. Fundamentally, I enjoy solving people's problems.
       </p>
       <div class="flex-center-responsive">
         <StandardCard
-          title="Web Design"
+          title="Software Dev"
           image="icons/desktop.svg"
-          description="Simple landing pages to complex webapps featuring enterprise functionality; it'll be pretty too!"
+          description="Can bring a website or app to life from design, programming, to solutions like hosting and DNS management."
         />
         <StandardCard
-          title="Hosting"
-          image="icons/server.svg"
-          description="Enviromentally friendly servers without compromising top notch performance."
+          title="Empathetic"
+          image="icons/compassion.png"
+          description="Listens to design needs and considerations deeply to create a solution that is elegantly functional."
         />
         <StandardCard
-          title="Consulting"
-          image="icons/consulting.svg"
-          description="Is your production build slow or completely broken? Contact now to discuss custom consulting options."
+          title="Hardware Guru"
+          image="icons/hardware.png"
+          description="Automate systems or setup IT infrastructure: PCs, servers, switches, routers, microcomputers, gaming, etc."
         />
       </div>
     </section>
@@ -61,23 +57,21 @@
         projects.
         <br />
         <br />
-        To see the code running this page (and many other services), feel free
-        to click here:
+        To see the code running this page (and other services), click here:
+        <br>
         <a href="https://github.com/Brehtyn?tab=repositories"> Github Repos </a>
       </p>
     </section>
 
     <section class="text-center bg-plate">
-      <h3>Project Examples</h3>
-      <p>Explore a small sample of projects Bigital has worked on.</p>
+      <p>Explore a small sample of projects I have worked on.</p>
       <div>
         <ExtendedCard
-          title="Bigital's Portfolio"
-          description="Wonder where you've seen this before. Running on Nuxt and utilizing loads more."
+          title="Bigital"
+          description="My company: a web design and development company that creates beautiful, functional websites and applications."
           image="screenshots/bigital.jfif"
           alt="Screenshot of Bigital's website."
           url="https://ibigital.com/"
-          github="https://github.com/Brehtyn/bgit-portfolio"
         />
         <ExtendedCard
           id="flip-it"
@@ -99,7 +93,9 @@
           thanksURL="https://www.venturadaniel.com/"
         />
         <p>
-          If you'd like to see more, check out this
+          If you'd like to see more, check out my
+          <NuxtLink to="/resume"> skills page </NuxtLink>
+          or this 
           <NuxtLink to="/resume"> resume page. </NuxtLink>
         </p>
       </div>
@@ -121,7 +117,16 @@
     </section>
 
     <section class="text-center bg-plate">
-      <h2>Contact to Learn More</h2>
+      <br />
+      <h2 class="text-center">Still curious to learn more?</h2>
+      <p>
+        <br />
+        I know I always am. 
+        <br />
+        If you would like to learn more about me or my work, please feel free to ask or visit my 
+        <NuxtLink to="/about">about page.</NuxtLink>
+        <br />
+      </p>
       <div class="flex-center-responsive">
         <ContactCard />
         <div class="contact-side-plate">
@@ -137,29 +142,6 @@
         </div>
       </div>
     </section>
-
-    <section class="text-center">
-      <br />
-      <h2 class="text-center">Still curious to learn more?</h2>
-      <p>
-        <br />
-        I know I always am.
-        <br />
-        <br />
-        Learn more about what I can do on my
-        <wbr />
-        <NuxtLink to="/skills">skills page</NuxtLink>
-        or to learn more about my background and aspirations, visit my
-        <wbr />
-        <NuxtLink to="/about">about page.</NuxtLink>
-      </p>
-    </section>
-
-    <img
-      class="img-cover"
-      src="../assets/curiosity.png"
-      alt="Bigital's mascot and logo phil flying a rocket in orbit around the earth."
-    />
   </div>
 </template>
 

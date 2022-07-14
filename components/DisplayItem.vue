@@ -29,7 +29,7 @@ export default {
 <style scoped>
 
 div {
-    width: 120px;
+    width: 100px;
     height: auto;
     padding: 1rem;
 }
