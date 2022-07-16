@@ -3,16 +3,18 @@
     <section class="text-center">
       <h1 id="landing-title">Empathetic Problem Solver</h1>
       <p>Innovative software and hardware solutions for those who need them.</p>
-      <br /> <br /> 
+      <br />
+      <br />
       <div class="flex-center-responsive landing">
         <div class="flex-column">
           <p>
-            My name is Brentyn and my portfolio website is under construction.
+            My name is Brentyn and I love to get into the technical details!
+            <br>    <br>
+            I am looking for both work and clients!
           </p>
           <NuxtLink to="/contact">
-            <button class="btn-CTA"><span> Connect Now </span></button>
+            <button class="btn-CTA"><span> Get In Touch </span></button>
           </NuxtLink>
-          <button class="btn-CTA"><span> View as Bunny </span></button>
         </div>
         <img
           src="../assets/high_flying.png"
@@ -24,52 +26,56 @@
     <section class="bg-plate">
       <h2>What I Do :</h2>
       <p>
-        Designing smart solutions for complex problems, from installing hardware to implementing software. Fundamentally, I enjoy solving people's problems.
+        Designing smart solutions for complex problems, from installing
+        specialized hardware to implementing custom software. Fundamentally, I
+        enjoy solving people's problems.
       </p>
       <div class="flex-center-responsive">
         <StandardCard
           title="Software Dev"
           image="icons/desktop.svg"
+          alt="A mac computer"
           description="Can bring a website or app to life from design, programming, to solutions like hosting and DNS management."
         />
         <StandardCard
           title="Empathetic"
           image="icons/compassion.png"
-          description="Listens to design needs and considerations deeply to create a solution that is elegantly functional."
+          alt="A pair of hands holding each other that forms a heart"
+          description="Listens to needs and considerations deeply to create an effective solution that is elegantly functional."
         />
         <StandardCard
           title="Hardware Guru"
           image="icons/hardware.png"
+          alt="A microcontroller"
           description="Automate systems or setup IT infrastructure: PCs, servers, switches, routers, microcomputers, gaming, etc."
         />
       </div>
     </section>
 
     <section class="text-center">
-      <h3>Open source all the way.</h3>
+      <h3>Community above all else.</h3>
       <img
-        src="../assets/launch_prep.png"
-        alt="Bigital's mascot and logo phil utilizing Brown's expertise to launch a rocket."
+        src="../assets/table_relief.png"
+        alt="Bigital's mascot and logo phil finishing giving aid to Brown on a table while a crowd gathers."
+        id="table-relief"
       />
       <p>
-        I strongly believe in the power of collaboration and many things I do
-        wouldn't be possible without massive contribution to open source
-        projects.
+        Helping others is imperative, no matter where.
         <br />
-        <br />
-        To see the code running this page (and other services), click here:
-        <br>
-        <a href="https://github.com/Brehtyn?tab=repositories"> Github Repos </a>
+        To give back, I help where I can. I'm happy to field any questions. I
+        also offer upto 70% off any of my adjustable business services for
+        nonprofits, charities, and other giving organizations.
       </p>
     </section>
 
-    <section class="text-center bg-plate">
+    <section class="text-center">
+      <h2> My Work Examples </h2>
       <p>Explore a small sample of projects I have worked on.</p>
       <div>
         <ExtendedCard
           title="Bigital"
           description="My company: a web design and development company that creates beautiful, functional websites and applications."
-          image="screenshots/bigital.jfif"
+          image="screenshots/bigital.png"
           alt="Screenshot of Bigital's website."
           url="https://ibigital.com/"
         />
@@ -77,7 +83,7 @@
           id="flip-it"
           title="Sudsy Serenity"
           description="A relaxing and peaceful soap store utilizing Shopify, Photoshop, and CSS."
-          image="screenshots/sudsyserenity.jfif"
+          image="screenshots/sudsyserenity.png"
           alt="Screenshot of Sudsy Serenity's website."
           url="https://sudsyserenity.com/"
         />
@@ -94,36 +100,38 @@
         />
         <p>
           If you'd like to see more, check out my
-          <NuxtLink to="/resume"> skills page </NuxtLink>
-          or this 
-          <NuxtLink to="/resume"> resume page. </NuxtLink>
+          <NuxtLink to="/skills"> skills page </NuxtLink>
+          or my
+          <a href="/assets/01resume_BrentynHanna.pdf" target="_blank"> resume pdf</a>.
         </p>
       </div>
     </section>
 
     <section class="text-center">
-      <h3>Community above all else.</h3>
+      <h3>Open source all the way.</h3>
       <img
-        src="../assets/table_relief.png"
-        alt="Bigital's mascot and logo phil finishing giving aid to Brown on a table while a crowd gathers."
+        src="../assets/launch_prep.png"
+        alt="Bigital's mascot and logo phil utilizing Brown's expertise to launch a rocket."
       />
       <p>
-        Helping others is imperative, no matter where.
+        I strongly believe in the power of collaboration and many things I do
+        wouldn't be possible without massive contribution to open source
+        projects.
         <br />
-        To give back, I help where I can. I'm happy to field any questions. I
-        also offer upto 70% off any of my adjustable business services for
-        nonprofits, charities, and other giving organizations.
+        <br />
+        To see the code running this page (and other services), click here:
+        <br />
+        <a href="https://github.com/Brehtyn?tab=repositories"> Github Repos </a>
       </p>
     </section>
 
     <section class="text-center bg-plate">
       <br />
       <h2 class="text-center">Still curious to learn more?</h2>
+      <p>I know I always am.</p>
       <p>
-        <br />
-        I know I always am. 
-        <br />
-        If you would like to learn more about me or my work, please feel free to ask or visit my 
+        If you would like to learn more about me or my work, please feel free to
+        ask or visit my
         <NuxtLink to="/about">about page.</NuxtLink>
         <br />
       </p>
@@ -170,6 +178,10 @@ h6 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+#table-relief {
+  width:100%;
+  max-width: 800px;
 }
 
 .landing > img {

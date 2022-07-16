@@ -21,7 +21,6 @@
         <NuxtLink to="/about"> About </NuxtLink>
         <a href="/assets/01resume_BrentynHanna.pdf" target="_blank"> Resume </a>
         <NuxtLink to="/contact"> Contact </NuxtLink>
-        
       </div>
     </div>
   </Nav>
@@ -74,17 +73,32 @@ Nav {
     justify-content: space-around;
     align-items: center;
   }
-  .navbar > div > a, #special {
-    padding: 0 1rem;
-    text-decoration: none;
-  }
-  .navbar > div > a:hover, #special:hover {
+
+  #special {
     border-spacing: 4px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12x;
     border-radius: 12px;
-    border: solid;
-    border-color: var(--color-primary);
+    border: solid 2px;
+    border-color: var(--color-neautral);
+    transition: 0.5s;
+    padding: 10px !important;
+  }
+
+  .navbar > div > a,
+  #special {
+    padding: 0 1rem;
+    text-decoration: none;
+  }
+  .navbar > div > a:hover,
+  #special:hover {
+    border-spacing: 4px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12x;
+    border-radius: 12px;
+    border: solid 2px;
+    border-color: var(--color-neutral);
+    background: var(--color-changing);
     transition: 0.5s;
     padding: 10px;
     cursor: pointer;
