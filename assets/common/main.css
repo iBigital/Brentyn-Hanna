@@ -222,7 +222,6 @@ section:not(:first-child) {
 }
 
 @keyframes fadeIn {
-    0%{opacity: 30%;}
-    30%{opacity: 90%;}
-    100%{opacity: 100%;}
+    0%{ background-color: var(--color-neutral); }
+    100%{ background-color: var(--color-special); }
 }

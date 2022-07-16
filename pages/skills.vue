@@ -351,7 +351,7 @@
           id="flip-it"
           title="Quantum ERP Solutions"
           description="Partners with Software Companies to provide implementation, customization, and automation built Wordpress and CSS."
-          image="screenshots/quantumERP.png"
+          image="screenshots/quantumerp.png"
           alt="Screenshot of Quantum ERP Solutions's website."
           url="https://quantumerpsolutions.com/"
         />

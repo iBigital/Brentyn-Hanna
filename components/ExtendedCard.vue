@@ -161,6 +161,7 @@ p {
   min-width: 200px;
   color: #000000;
   text-decoration: none;
+  text-align: center;
 }
 .btn:hover, .btn:active {
   background-color: var(--color-neutral-dark);
