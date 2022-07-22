@@ -2,8 +2,7 @@
   <footer>
     <div class="flex-center text-center">
       <p>
-        <a href="https://ibigital.com">
-          Made by Bigital</a> | © 2022 All Rights Reserved
+        <a href="https://brentyn.net">Brentyn ©</a> All Rights Reserved | <a href="https://ibigital.com">by Bigital</a>
       </p>
     </div>
   </footer>

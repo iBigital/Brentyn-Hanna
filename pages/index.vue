@@ -187,6 +187,7 @@ h6 {
 .landing > img {
   width: 60%;
   height: auto;
+  object-fit: contain;
 }
 .landing > .flex-column {
   padding: 1rem;
@@ -208,7 +209,8 @@ h6 {
     flex-direction: column-reverse;
   }
   .landing > .flex-column > p {
-  text-align: center;
+     text-align: center;
+     margin-left: 2rem;
 }
 }
 
