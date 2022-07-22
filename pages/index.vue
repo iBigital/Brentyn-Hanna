@@ -172,7 +172,7 @@ h6 {
 }
 
 #landing-title {
-  font-size: 3rem;
+  font-size: clamp(2.5rem, 5vw, 5rem);
   font-weight: bold;
   background: var(--color-changing);
   background-clip: text;
@@ -207,6 +207,9 @@ h6 {
   .landing {
     flex-direction: column-reverse;
   }
+  .landing > .flex-column > p {
+  text-align: center;
+}
 }
 
 @media screen and (min-width: 769px) {

@@ -11,7 +11,7 @@
     </div>
 
     <button @click="toggleNav">
-      <img id="mobile_display" src="assets/menu.svg" alt="menu" width="20px" />
+      <img id="mobile_display" src="/assets/menu.svg" alt="menu" width="20px" />
     </button>
 
     <div v-if="mobileNav" @click="toggleNav" class="mobile_background">
@@ -60,7 +60,7 @@ Nav {
   Nav {
     margin: 1rem;
     margin-top: 0;
-    padding: 2rem 4rem 0 4rem;
+    padding: 1rem 4rem 0 4rem;
   }
   .navbar {
     display: flex;

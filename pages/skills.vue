@@ -438,21 +438,9 @@
 </template>
 
 <style scoped>
-.service-intro {
-  margin: 2rem;
-  margin-bottom: 0;
-}
-.service-intro > p {
-  padding: 1rem;
-  text-align: left;
-  flex-shrink: 1;
-}
-.service-intro > img {
-  max-width: 300px;
-  height: auto;
-}
-
 .bg-plate {
   max-width: 1000px;
+  width: 100%;
+  padding: 1rem;
 }
 </style>
