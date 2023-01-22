@@ -34,7 +34,7 @@
         <h3>Email :</h3>
       </div>
       <div class="half-split">
-        <p>brent.hanna@gmail.com</p>
+        <p>brent.hanna+net@gmail.com</p>
       </div>
       <div class="half-split">
         <h3>Located :</h3>

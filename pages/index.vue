@@ -9,8 +9,6 @@
         <div class="flex-column">
           <p>
             My name is Brentyn and I love to get into the technical details!
-            <br>    <br>
-            I am looking for both work and clients!
           </p>
           <NuxtLink to="/contact">
             <button class="btn-CTA"><span> Get In Touch </span></button>
@@ -32,10 +30,10 @@
       </p>
       <div class="flex-center-responsive">
         <StandardCard
-          title="Software Dev"
+          title="Software Engineer"
           image="icons/desktop.svg"
           alt="A mac computer"
-          description="Can bring a website or app to life from design, programming, to solutions like hosting and DNS management."
+          description="Can bring applications to life from design, programming, to solutions like hosting and network management."
         />
         <StandardCard
           title="Empathetic"
@@ -62,9 +60,7 @@
       <p>
         Helping others is imperative, no matter where.
         <br />
-        To give back, I help where I can. I'm happy to field any questions. I
-        also offer upto 70% off any of my adjustable business services for
-        nonprofits, charities, and other giving organizations.
+        To give back, I help where I can. I'm happy to field any questions. 
       </p>
     </section>
 
