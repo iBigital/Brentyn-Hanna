@@ -128,8 +128,10 @@ Nav {
     top: 1.5rem;
     right: 1.5rem;
     width: auto;
+    min-width: 35px;
     max-width: 100px;
     height: auto;
+    min-height:35px;
     border-color: var(--color-special);
     border-style: solid;
     border-width: 0.2rem;
@@ -138,6 +140,7 @@ Nav {
   }
   #mobile_display {
     display: block;
+    z-index: 101;
   }
   .mobile_background {
     z-index: 25;

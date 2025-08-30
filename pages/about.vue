@@ -23,10 +23,10 @@
       </div>
       <br />
       <p>
-        I graduated in the fall of 2016 from highschool with a dual enrollment
-        Liberal Arts associates degree from Mohave Community College. 
+        I graduated in the fall of 2016 from high school with a dual enrollment
+        Liberal Arts associate's degree from Mohave Community College. 
         <br> <br>
-        From 2016-2018, I persued a bachelors from Arizona State University with a major in Aerospace Engineering
+        From 2016-2018, I pursued a bachelor degree from Arizona State University with a major in Aerospace Engineering
         and a minor in Astrophysics. I did not complete my bachelors (16 credit hours short) but 
         I plan on continuing perusing my degree when it is financially feasible. 
       </p>
@@ -35,7 +35,7 @@
     <section class="bg-plate">
       <div class="flex-center-responsive">
         <a href="https://www.nasa.gov/">
-          <img src="icons/logo_nasa.png" alt="NASA's Logo" />
+          <img src="/public/icons/logo_nasa.png" alt="NASA's Logo" />
         </a>
         <p>
           In the future, I intend to become an aerospace engineer and work on
@@ -57,7 +57,7 @@
     </section>
 
     <section class="text-center">
-      <p>Genuinely, thank you for visting my site!</p>
+      <p>Genuinely, thank you for visiting my site!</p>
 
       <p>Novel, alien, or mysterious problems? I would love to help!</p>
       <br />

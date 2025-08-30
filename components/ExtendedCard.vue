@@ -75,11 +75,10 @@ section {
   height: 100%;
   background-color: var(--color-neutral);
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
   display: flex;
   flex-direction: row;
   color: #000000;
-  background-color: var(--color-neutral);
   margin: 2rem auto;
 }
 section:hover, section:active {

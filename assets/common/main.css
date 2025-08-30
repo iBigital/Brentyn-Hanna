@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: Sora;
-    src: url(../../static/assets/Sora.ttf)
+    src: url(/assets/Sora.ttf)
   }
 @font-face {
     font-family: Merriweather;
-    src: url(../../static/assets/Merriweather-Regular.ttf)
+    src: url(/assets/Merriweather-Regular.ttf)
   }
 :root {
     --color-primary: rgb(119, 159, 233);

@@ -36,11 +36,6 @@
           alt="Instagram's Logo"
           url="https://www.instagram.com/brehtyn/"
         />
-        <DisplayItem
-          image="icons/logo_twitter.png"
-          alt="Twitter's Logo"
-          url="https://twitter.com/brehtyn"
-        />
       </div>
     </section>
 

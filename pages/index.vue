@@ -2,7 +2,7 @@
   <div>
     <section class="text-center">
       <h1 id="landing-title">Empathetic Problem Solver</h1>
-      <p>Innovative software and hardware solutions for those who need them.</p>
+      <p>Innovative solutions for those who need them.</p>
       <br />
       <br />
       <div class="flex-center-responsive landing">
@@ -36,7 +36,7 @@
           description="Can bring applications to life from design, programming, to solutions like hosting and network management."
         />
         <StandardCard
-          title="Empathetic"
+          title="People Person"
           image="icons/compassion.png"
           alt="A pair of hands holding each other that forms a heart"
           description="Listens to needs and considerations deeply to create an effective solution that is elegantly functional."
@@ -77,18 +77,17 @@
         />
         <ExtendedCard
           id="flip-it"
-          title="Sudsy Serenity"
-          description="A relaxing and peaceful soap store utilizing Shopify, Photoshop, and CSS."
-          image="screenshots/sudsyserenity.png"
-          alt="Screenshot of Sudsy Serenity's website."
-          url="https://sudsyserenity.com/"
+          title="Quantum ERP Solutions"
+          description="Partners with Software Companies to provide implementation, customization, and automation built Wordpress and CSS."
+          image="screenshots/quantumerp.png"
+          alt="Screenshot of Quantum ERP Solutions's website."
+          url="https://quantumerpsolutions.com/"
         />
         <ExtendedCard
           title="Todo Simply"
           description="Todo list made with React, Node, and MongoDB. Special thanks to Daniel Ventura."
           image="screenshots/todosimply.jfif"
           alt="Screenshot of Todo Simply's App."
-          url="https://todo-simply.com/"
           github="https://github.com/Dvent1123/task-manager-client"
           githubAPI="https://github.com/Dvent1123/task-manager-api"
           thanksPerson="Daniel Ventura"
@@ -168,7 +167,7 @@ h6 {
 }
 
 #landing-title {
-  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
   font-weight: bold;
   background: var(--color-changing);
   background-clip: text;

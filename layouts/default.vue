@@ -1,12 +1,12 @@
 <template class="daycycle-background">
-  <div>
+  <main>
     <div class="daycycle-background" id="page_wrapper">
       <TheNavbar />
       <TheHeader />
     </div>
-    <Nuxt />
+    <slot />
     <TheFooter />
-  </div>
+  </main>
 </template>
 
 <style scoped>

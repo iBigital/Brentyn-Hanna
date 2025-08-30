@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper shapedividers_com-6574">
-    <img id="header_img" src="../assets/common/header.png" alt="Brentyn Hanna pictured in a suit, cut off at the shoulders. 'Brentyn Hanna' floats above'." />
+    <img id="header_img" src="../assets/common/header.png" alt="Brentyn Hanna pictured, cut off at the shoulders. 'Brentyn Hanna' floats above'." />
     <div class="social flex-center">
       <a href="https://www.linkedin.com/in/brehtyn/">
         <img
@@ -28,13 +28,6 @@
           src="../assets/common/logo_instagram.png"
           height="40px"
           alt="Instagram"
-        />
-      </a>
-      <a href="https://twitter.com/brehtyn">
-        <img
-          src="../assets/common/logo_twitter.png"
-          height="32px"
-          alt="Twitter"
         />
       </a>
     </div>

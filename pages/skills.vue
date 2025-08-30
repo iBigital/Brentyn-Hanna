@@ -16,14 +16,14 @@
         <h3 class="text-center">Familiar Toolbox :</h3>
         <div class="flex-center">
           <DisplayItem
-            image="icons/figma.svg"
-            alt="Figma's Logo"
-            url="https://www.figma.com/"
+            image="icons/c-sharp.svg"
+            alt="C#'s Logo"
+            url="https://dotnet.microsoft.com/en-us/languages/csharp"
           />
           <DisplayItem
-            image="icons/photoshop.svg"
-            alt="Photoshop's Logo"
-            url="https://www.adobe.com/products/photoshop.html"
+            image="icons/dotnet.png"
+            alt=".NET's Logo"
+            url="https://dotnet.microsoft.com/"
           />
           <DisplayItem
             image="icons/vue-js.svg"
@@ -36,11 +36,6 @@
             url="https://nuxtjs.org/"
           />
           <DisplayItem
-            image="icons/react-js.svg"
-            alt="React's Logo"
-            url="https://reactjs.org/"
-          />
-          <DisplayItem
             image="icons/css3.png"
             alt="CSS3's Logo"
             url="https://developer.mozilla.org/en-US/docs/Web/CSS"
@@ -49,16 +44,6 @@
             image="icons/html5.png"
             alt="HTML5's Logo"
             url="https://en.wikipedia.org/wiki/HTML"
-          />
-          <DisplayItem
-            image="icons/sass.svg"
-            alt="Sass's Logo"
-            url="https://sass-lang.com/"
-          />
-          <DisplayItem
-            image="icons/cpanel.png"
-            alt="cPanel's Logo"
-            url="https://cpanel.net/"
           />
           <DisplayItem
             image="icons/javascript.svg"
@@ -91,19 +76,14 @@
             url="https://www.php.net/"
           />
           <DisplayItem
-            image="icons/dotnet.png"
-            alt=".NET's Logo"
-            url="https://dotnet.microsoft.com/"
+            image="icons/react-js.svg"
+            alt="React's Logo"
+            url="https://reactjs.org/"
           />
           <DisplayItem
             image="icons/blazor.png"
             alt="Blazor's Logo"
             url="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
-          />
-          <DisplayItem
-            image="icons/c-sharp.svg"
-            alt="C#'s Logo"
-            url="https://dotnet.microsoft.com/en-us/languages/csharp"
           />
           <DisplayItem
             image="icons/node-js.svg"
@@ -131,6 +111,16 @@
             url="https://en.wikipedia.org/wiki/SQL"
           />
           <DisplayItem
+            image="icons/mysql.png"
+            alt="MySQL's Logo"
+            url="https://www.mysql.com/"
+          />
+          <DisplayItem
+            image="icons/mssql.png"
+            alt="MSSQL's Logo"
+            url="https://www.microsoft.com/en-us/sql-server"
+          />
+          <DisplayItem
             image="icons/wordpress.svg"
             alt="Wordpress's Logo"
             url="https://wordpress.org/"
@@ -151,6 +141,46 @@
             url="https://shopify.dev/"
           />
           <DisplayItem
+            image="icons/figma.svg"
+            alt="Figma's Logo"
+            url="https://www.figma.com/"
+          />
+          <DisplayItem
+            image="icons/photoshop.svg"
+            alt="Photoshop's Logo"
+            url="https://www.adobe.com/products/photoshop.html"
+          />
+          <DisplayItem
+            image="icons/sass.svg"
+            alt="Sass's Logo"
+            url="https://sass-lang.com/"
+          />
+          <DisplayItem
+            image="icons/cpanel.png"
+            alt="cPanel's Logo"
+            url="https://cpanel.net/"
+          />
+          <DisplayItem
+            image="icons/whm.png"
+            alt="WHM's Logo"
+            url="https://www.cpanel.net/products/cpanel-whm-features/"
+          />
+          <DisplayItem
+            image="icons/arduino.svg"
+            alt="Arduino's Logo"
+            url="https://www.arduino.cc/"
+          />
+          <DisplayItem
+            image="icons/raspberrypi.png"
+            alt="RaspberryPi's Logo"
+            url="https://www.raspberrypi.com/"
+          />
+          <DisplayItem
+            image="icons/plc.png"
+            alt="plc icon"
+            url="https://en.wikipedia.org/wiki/Programmable_logic_controller"
+          />
+          <DisplayItem
             image="icons/linux.png"
             alt="Linux's Logo"
             url="https://www.linux.org/"
@@ -161,9 +191,19 @@
             url="https://www.ubuntu.com/"
           />
           <DisplayItem
+            image="icons/kali.png"
+            alt="Kali's Logo"
+            url="https://www.kali.org/"
+          />
+          <DisplayItem
             image="icons/cheatengine.png"
             alt="Cheat Engine's Logo"
             url="https://www.cheatengine.org/"
+          />
+          <DisplayItem
+            image="icons/putty.png"
+            alt="putty's Logo"
+            url="https://www.chiark.greenend.org.uk/~sgtatham/putty/"
           />
           <DisplayItem
             image="icons/git.svg"
@@ -176,19 +216,45 @@
             url="https://github.com/"
           />
           <DisplayItem
+            image="icons/gitlab.svg"
+            alt="Gitlab's Logo"
+            url="https://about.gitlab.com/"
+          />
+          <DisplayItem
+            image="icons/docker.png"
+            alt="Docker's Logo"
+            url="https://www.docker.com/"
+          />
+          <DisplayItem
             image="icons/copilot.png"
             alt="Github Copilot Logo"
             url="https://copilot.github.com/"
+          />
+          <DisplayItem
+            image="icons/snmp.png"
+            alt="snmp icon"
+            url="https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol"
+          />
+          <DisplayItem
+            image="icons/hypervisor.png"
+            alt="hypervisor icon"
+            url="https://www.vmware.com/topics/hypervisor"
           />
           <DisplayItem
             image="icons/bash.svg"
             alt="Bash's Logo"
             url="https://www.gnu.org/software/bash/"
           />
+
           <DisplayItem
-            image="icons/powershell.svg"
+            image="icons/powershell.png"
             alt="PowerShell's Logo"
             url="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/powershell"
+          />
+          <DisplayItem
+            image="icons/json.png"
+            alt="json icon"
+            url="https://www.json.org/json-en.html"
           />
           <DisplayItem
             image="icons/yaml.png"
@@ -196,51 +262,82 @@
             url="https://www.yaml.org/"
           />
           <DisplayItem
+            image="icons/ini.png"
+            alt="ini icon"
+            url="https://en.wikipedia.org/wiki/INI_file"
+          />
+          <DisplayItem
+            image="icons/xml.png"
+            alt="xml's Logo"
+            url="https://en.wikipedia.org/wiki/XML"
+          />
+          <DisplayItem
             image="icons/matlab.svg"
             alt="Matlab's Logo"
             url="https://www.mathworks.com/products/matlab.html"
           />
+
           <DisplayItem
-            image="icons/arduino.svg"
-            alt="Arduino's Logo"
-            url="https://www.arduino.cc/"
+            image="icons/autodesk.png"
+            alt="Autodesk Fusion's Logo"
+            url="https://www.autodesk.com/products/fusion-360/overview"
+          />
+          <DisplayItem
+            image="icons/cad.png"
+            alt="CAD's Logo"
+            url="https://www.autodesk.com/solutions/cad-software"
+          />
+          <DisplayItem
+            image="icons/3dprinting.png"
+            alt="Icon of 3dPrinting"
+            url="https://en.wikipedia.org/wiki/3D_printing"
+          />
+          <DisplayItem
+            image="icons/benchvue.png"
+            alt="BenchVue's Logo"
+            url="https://www.keysight.com/us/en/products/software/pathwave-test-software/benchvue-software.html"
+          />
+          <DisplayItem
+            image="icons/ArcGIS.png"
+            alt="ArcGIS's Logo"
+            url="https://www.arcgis.com/index.html"
+          />
+          <DisplayItem
+            image="icons/rfid.png"
+            alt="Icon of RFID"
+            url="https://en.wikipedia.org/wiki/Radio-frequency_identification"
+          />
+          <DisplayItem
+            image="icons/nfc.png"
+            alt="Icon of NFC"
+            url="https://en.wikipedia.org/wiki/Near-field_communication"
+          />
+          <DisplayItem
+            image="icons/radio.png"
+            alt="Icon of Radio"
+            url="https://en.wikipedia.org/wiki/Radio"
+          />
+          <DisplayItem
+            image="icons/radar.png"
+            alt="Icon of Radar"
+            url="https://en.wikipedia.org/wiki/Radar"
           />
         </div>
       </div>
       <br />
 
       <div class="bg-plate">
-        <h3 class="text-center">Excited to Learn More With :</h3>
+        <h3 class="text-center">Excited to Learn :</h3>
         <div class="flex-center">
           <DisplayItem
-            image="icons/golang.svg"
-            alt="Go's Logo"
-            url="https://go.dev/"
+            image="icons/haskell.svg"
+            alt="Haskell's Logo"
+            url="https://www.haskell.org/"
           />
-          <DisplayItem
-            image="icons/ruby.svg"
-            alt="Ruby's Logo"
-            url="https://www.ruby-lang.org/"
-          />
-          <DisplayItem
-            image="icons/rubyonrails.png"
-            alt="Ruby On Rails Logo"
-            url="https://rubyonrails.org/"
-          />
-          <DisplayItem
-            image="icons/postgres.png"
-            alt="Postgres's Logo"
-            url="https://www.postgresql.org/"
-          />
-          <DisplayItem
-            image="icons/flutter.svg"
-            alt="Flutters's Logo"
-            url="https://flutter.dev/"
-          />
-          <DisplayItem
-            image="icons/docker.png"
-            alt="Docker's Logo"
-            url="https://www.docker.com/"
+                    <DisplayItem
+            image="icons/tensorflow.png"
+            alt="TensorFlow's Logo"
+            url="https://www.tensorflow.org/"
           />
           <DisplayItem
             image="icons/kubernetes.svg"
@@ -253,19 +350,14 @@
             url="https://www.nginx.com/"
           />
           <DisplayItem
-            image="icons/haskell.svg"
-            alt="Haskell's Logo"
-            url="https://www.haskell.org/"
+            image="icons/flutter.svg"
+            alt="Flutters's Logo"
+            url="https://flutter.dev/"
           />
           <DisplayItem
             image="icons/unity.svg"
             alt="Unitys's Logo"
             url="https://unity.com/"
-          />
-          <DisplayItem
-            image="icons/cad.png"
-            alt="CAD's Logo"
-            url="https://www.autodesk.com/solutions/cad-software"
           />
         </div>
       </div>
@@ -280,36 +372,30 @@
         </p>
       </div>
       <SkillCard
-        title="Hardware Repair"
-        image="icons/repair.png"
-        alt="Hand holding repair tool"
-        description="Capable of fixing PCs, phones, slot machines, and other electronic devices."
-      />
-      <SkillCard
         id="flip-it"
         title="Hosting"
         image="icons/server.svg"
         alt="green server rack"
-        description="Enviromentally conscious server selection with a focus on security and performance."
+        description="Environmentally conscious server selection with a focus on security and performance."
       />
       <SkillCard
         title="Consulting"
         image="icons/consulting.svg"
         alt="people consulting"
-        description="Friendly expert advice and assistance for projects, building, or more."
+        description="Friendly expert advice, assistance for projects, building, and more!"
       />
       <SkillCard
         id="flip-it"
         title="Electrical Design"
         image="icons/hardware.png"
         alt="microcontroller"
-        description="Professionally design circuits, sensors, or microcontrolled systems."
+        description="Can dig deep into soldering circuits, sensors, or micro-controlled systems."
       />
       <SkillCard
         title="Soldering"
         image="icons/soldering.png"
         alt="a hand holding a soldering iron"
-        description="Experienced at making eletrical connections somewhat more permanent."
+        description="Experienced at making electrical connections somewhat more permanent."
       />
       <SkillCard
         id="flip-it"
@@ -329,14 +415,14 @@
       />
       <SkillCard
         title="Wait one second...?"
-        description="A savy person might notice some of these services are lacking! Thats because an AI wrote the above information as a temporary placeholder."
+        description="A savvy person might notice some of these services are lacking! That's because an AI wrote the above information as a temporary placeholder."
       />
     </section>
 
     <section>
       <div class="flex">
         <h2>Leadership</h2>
-        <p>A history of demostratable leadership and willingness to step-up.</p>
+        <p>A history of demonstrable leadership and willingness to step-up.</p>
       </div>
       <ExtendedCard
         title="Bigital"
