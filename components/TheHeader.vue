@@ -1,19 +1,23 @@
 <template>
   <div class="wrapper shapedividers_com-6574">
-    <img id="header_img" src="../assets/common/header.png" alt="Brentyn Hanna pictured, cut off at the shoulders. 'Brentyn Hanna' floats above'." />
+    <img
+      id="header_img"
+      src="../assets/common/header.png"
+      alt="Brentyn Hanna pictured, cut off at the shoulders. 'Brentyn Hanna' floats above'."
+    />
     <div class="social flex-center">
-      <a href="https://www.linkedin.com/in/brehtyn/">
-        <img
-          src="../assets/common/logo_linkedin.png"
-          height="40px"
-          alt="Linkedin"
-        />
-      </a>
       <a href="https://github.com/Brehtyn">
         <img
           src="../assets/common/logo_github.png"
           height="40px"
           alt="Github"
+        />
+      </a>
+      <a href="https://www.instagram.com/brehtyn/">
+        <img
+          src="../assets/common/logo_instagram.png"
+          height="40px"
+          alt="Instagram"
         />
       </a>
       <a href="https://www.iBigital.com/">
@@ -23,11 +27,11 @@
           alt="Bigital"
         />
       </a>
-      <a href="https://www.instagram.com/brehtyn/">
+      <a href="https://www.linkedin.com/in/brehtyn/">
         <img
-          src="../assets/common/logo_instagram.png"
+          src="../assets/common/logo_linkedin.png"
           height="40px"
-          alt="Instagram"
+          alt="Linkedin"
         />
       </a>
     </div>
