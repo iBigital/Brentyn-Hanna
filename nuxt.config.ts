@@ -1,10 +1,4 @@
-export default defineNuxtConfig({
-  ssr: false,
-
-  nitro: {
-    preset: 'static'
-  },
-
+export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -49,4 +43,15 @@ export default defineNuxtConfig({
   build: {
   },
 
+}
+
+defineNuxtConfig({
+  ssr: false,
+  nitro: {
+    baseURL: "https//localhost:3000",
+    prerender: {
+      crawlLinks: false,
+      failOnError: false,
+    },
+  }
 })

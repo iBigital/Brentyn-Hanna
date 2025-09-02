@@ -480,7 +480,7 @@
         description="A rustic themed sign store utilizing Shopify, Photoshop, and CSS."
         image="screenshots/thewoodenchick.png"
         alt="Screenshot of The Wooden Chick's website."
-        url="https://sudsyserenity.com/"
+        url="https://thewoodenchick.com"
       />
 
       <ExtendedCard
