@@ -334,7 +334,7 @@
             alt="Haskell's Logo"
             url="https://www.haskell.org/"
           />
-                    <DisplayItem
+          <DisplayItem
             image="icons/tensorflow.png"
             alt="TensorFlow's Logo"
             url="https://www.tensorflow.org/"
@@ -373,40 +373,53 @@
       </div>
       <SkillCard
         id="flip-it"
-        title="Hosting"
+        title="Web Hosting"
         image="icons/server.svg"
         alt="green server rack"
         description="Environmentally conscious server selection with a focus on security and performance."
       />
       <SkillCard
-        title="Consulting"
-        image="icons/consulting.svg"
+        title="Tech Consulting"
+        image="icons/consulting.png"
         alt="people consulting"
         description="Friendly expert advice, assistance for projects, building, and more!"
       />
       <SkillCard
         id="flip-it"
         title="Electrical Design"
-        image="icons/hardware.png"
+        image="icons/pcb.png"
         alt="microcontroller"
         description="Can dig deep into soldering circuits, sensors, or micro-controlled systems."
       />
       <SkillCard
-        title="Soldering"
+        title="Modern Networking"
+        image="icons/networking.png"
+        alt="network topology diagram"
+        description="Speaks the language of TCP/IP and other layer 3 technologies."
+      />
+      <SkillCard
+        id="flip-it"
+        title="Prototype Protégé"
+        image="icons/prototype.png"
+        alt="3d printing icon"
+        description="Willing to iterate, iterate, iterate until perfection!"
+      />
+      <SkillCard
+        title="Tin Soldering"
         image="icons/soldering.png"
         alt="a hand holding a soldering iron"
         description="Experienced at making electrical connections somewhat more permanent."
       />
       <SkillCard
         id="flip-it"
-        title="Automation"
+        title="Automation Programming"
         image="icons/automation.png"
         alt="a lit up lightbult"
-        description="I can help you automate your workflow with our custom automation solutions."
+        description="I can help you automate your workflow with custom solutions."
       />
       <SkillCard
         title="Maintenance"
-        description="An eye for cleaning and preventative care of your equipment."
+        description="I have an eye for cleaning and preventative care of your equipment."
       />
       <SkillCard
         id="flip-it"
@@ -431,64 +444,84 @@
         alt="Screenshot of Bigital's website."
         url="https://ibigital.com/"
       />
-      <div class="bg-plate text-center">
-        <h3>Bigital projects created by me</h3>
-        <ExtendedCard
-          id="flip-it"
-          title="Quantum ERP Solutions"
-          description="Partners with Software Companies to provide implementation, customization, and automation built Wordpress and CSS."
-          image="screenshots/quantumerp.png"
-          alt="Screenshot of Quantum ERP Solutions's website."
-          url="https://quantumerpsolutions.com/"
-        />
-        <ExtendedCard
-          title="Call of Dooty 702"
-          description="Local professional handyman and his crew's landing page. HTML, CSS, & Photoshop hosted on cPanel."
-          image="screenshots/callofdooty702.png"
-          alt="Screenshot of Call of Dooty's website."
-          url="https://callofdooty702.com/"
-          github="https://github.com/Brehtyn/CallofDooty"
-        />
-        <ExtendedCard
-          id="flip-it"
-          title="The Wooden Chick"
-          description="A rustic themed sign store utilizing Shopify, Photoshop, and CSS."
-          image="screenshots/thewoodenchick.png"
-          alt="Screenshot of The Wooden Chick's website."
-          url="https://sudsyserenity.com/"
-        />
-        <ExtendedCard
-          title="Guiding Light Preschool"
-          description="Family daycare school made with plain HTML, CSS, JS, and PHP hosted on cPanel."
-          image="screenshots/guidinglight.png"
-          alt="Screenshot of GLCEC's website."
-          url="https://www.glcec.org/"
-          github="https://github.com/Brehtyn/G.L.C.E.C."
-        />
-        <ExtendedCard
-          id="flip-it"
-          title="Ooofta"
-          description="Swedish entrepreneur's website for his ingenius backpacks. Wordpress and CSS."
-          image="screenshots/ooofta.png"
-          alt="Screenshot of OOOFTA's website."
-          url="http://www.ooofta.com/"
-        />
-        <ExtendedCard
-          title="Hanna IT"
-          description="Professional IT Services made with Wordpress, Photoshop and CSS."
-          image="screenshots/hannait.png"
-          alt="Screenshot of HannaIT's website."
-          url="https://www.hannait.com/"
-        />
-        <ExtendedCard
-          id="flip-it"
-          title="Sudsy Serenity"
-          description="A relaxing and peaceful soap store utilizing Shopify, Photoshop, and CSS."
-          image="screenshots/sudsyserenity.png"
-          alt="Screenshot of Sudsy Serenity's website."
-          url="https://sudsyserenity.com/"
-        />
-      </div>
+      <ExtendedCard
+        id="flip-it"
+        title="Hanna IT"
+        description="Professional IT Services homepage made with Wordpress, Photoshop and CSS."
+        image="screenshots/hannait.png"
+        alt="Screenshot of HannaIT's website."
+        url="https://www.hannait.com/"
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Flirt Fontface"
+        description="A recreation of a handmade font in remembrance of Floriana Hanna. Birdfont & Photoshop."
+        image="screenshots/flirt_fontface.jpg"
+        alt="Screenshot of the glyphs of Flirt."
+        github="https://github.com/Brehtyn/Flirt-Fontface"
+      />
+      <ExtendedCard
+        title="The Piercing Shop"
+        description="Body-piercing shop with a selection of jewelry offering eyebrow, nose, and septum piercings, among others. Wordpress, Photoshop, & WooCommerce."
+        image="screenshots/thepiercingshop.png"
+        alt="Screenshot of ThePiercing.Shop's website."
+        url="https://www.thepiercing.shop/"
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Quantum ERP Solutions"
+        description="Partners with Software Companies to provide implementation, customization, and automation built Wordpress and CSS."
+        image="screenshots/quantumerp.png"
+        alt="Screenshot of Quantum ERP Solutions's website."
+        url="https://quantumerpsolutions.com/"
+      />
+      <ExtendedCard
+        title="The Wooden Chick"
+        description="A rustic themed sign store utilizing Shopify, Photoshop, and CSS."
+        image="screenshots/thewoodenchick.png"
+        alt="Screenshot of The Wooden Chick's website."
+        url="https://sudsyserenity.com/"
+      />
+
+      <ExtendedCard
+        title="Call of Dooty 702"
+        description="Local professional handyman and his crew's landing page. HTML, CSS, & Photoshop hosted on cPanel."
+        image="screenshots/callofdooty702.png"
+        alt="Screenshot of Call of Dooty's website."
+        url="https://callofdooty702.com/"
+        github="https://github.com/Brehtyn/CallofDooty"
+      />
+      <ExtendedCard
+        title="Guiding Light Preschool"
+        description="Family daycare school made with plain HTML, CSS, JS, and PHP hosted on cPanel."
+        image="screenshots/guidinglight.png"
+        alt="Screenshot of GLCEC's website."
+        url="https://www.glcec.org/"
+        github="https://github.com/Brehtyn/G.L.C.E.C."
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Ooofta"
+        description="Swedish entrepreneur's website for his ingenious backpacks. Wordpress and CSS."
+        image="screenshots/ooofta.png"
+        alt="Screenshot of OOOFTA's website."
+        url="http://www.ooofta.com/"
+      />
+      <ExtendedCard
+        id="flip-it"
+        title="Sudsy Serenity"
+        description="A relaxing and peaceful soap store utilizing Shopify, Photoshop, and CSS."
+        image="screenshots/sudsyserenity.png"
+        alt="Screenshot of Sudsy Serenity's website."
+      />
+      <ExtendedCard
+        title="Brentyns.com"
+        description="A hub for Brentyn's gaming server antics, primarily minecraft. Nuxt, JS, CSS, Photoshop, & more hosted on cPanel."
+        image="screenshots/brentyns.com.png"
+        alt="Screenshot of Brentyns.com's website."
+        url="https://Brentyns.com/"
+        github="https://github.com/Brehtyn/brentyns.com"
+      />
     </section>
 
     <section>
@@ -501,7 +534,6 @@
         description="Todo list made with React, Node, and MongoDB. Special thanks to Daniel Ventura."
         image="screenshots/todosimply.jfif"
         alt="Screenshot of Todo Simply's App."
-        url="https://todo-simply.com/"
         github="https://github.com/Dvent1123/task-manager-client"
         githubAPI="https://github.com/Dvent1123/task-manager-api"
         thanksPerson="Daniel Ventura"
@@ -513,7 +545,6 @@
         description="Workout goal based tracker made with React, Node, and MongoDB. Special thanks to Daniel Ventura."
         image="screenshots/calitrack.jfif"
         alt="Screenshot of Calisthenic Tracker's website."
-        url="https://exercisemaphub.com/"
         github="https://github.com/Dvent1123/calisthenics-tracker-client"
         githubAPI="https://github.com/Dvent1123/calisthenics-tracker-api"
         thanksPerson="Dan the Man"

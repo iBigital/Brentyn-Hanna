@@ -15,7 +15,7 @@
           </NuxtLink>
         </div>
         <img
-          src="../assets/high_flying.png"
+          src="../assets/flying.gif"
           alt="Bigital's mascot and logo phil flying a biplane with his passenger & sidekick Socks. Some clouds"
         />
       </div>
