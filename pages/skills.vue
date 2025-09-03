@@ -298,7 +298,7 @@
             url="https://www.keysight.com/us/en/products/software/pathwave-test-software/benchvue-software.html"
           />
           <DisplayItem
-            image="icons/ArcGIS.png"
+            image="icons/arcgis.png"
             alt="ArcGIS's Logo"
             url="https://www.arcgis.com/index.html"
           />

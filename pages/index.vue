@@ -24,28 +24,28 @@
     <section class="bg-plate">
       <h2>What I Do :</h2>
       <p>
-        Designing smart solutions for complex problems, from installing
+        Deploys smart solutions from installing
         specialized hardware to implementing custom software. Fundamentally, I
-        enjoy solving people's problems.
+        enjoy solving technical problems and helping people.
       </p>
       <div class="flex-center-responsive">
         <StandardCard
           title="Software Engineer"
           image="icons/desktop.svg"
           alt="A mac computer"
-          description="Can bring applications to life from design, programming, to solutions like hosting and network management."
+          description="Can bring applications to life from design, programming, to providing solutions like hosting and network management."
         />
         <StandardCard
           title="People Person"
           image="icons/compassion.png"
           alt="A pair of hands holding each other that forms a heart"
-          description="Listens to needs and considerations deeply to create an effective solution that is elegantly functional."
+          description="Listens to needs and considerations deeply to create an effective solution that is fit as functional."
         />
         <StandardCard
           title="Hardware Guru"
           image="icons/hardware.png"
           alt="A microcontroller"
-          description="Automate systems or setup IT infrastructure: PCs, servers, switches, routers, microcomputers, gaming, etc."
+          description="Sets up IT infrastructure or racks of equipment: PCs, servers, switches, antennas, scientific equipment, gaming, etc."
         />
       </div>
     </section>
@@ -60,7 +60,7 @@
       <p>
         Helping others is imperative, no matter where.
         <br />
-        To give back, I help where I can. I'm happy to field any questions. 
+        To give back, I give time and discounts to charitable organizations. Ask me about more! 
       </p>
     </section>
 
@@ -111,7 +111,7 @@
       <p>
         I strongly believe in the power of collaboration and many things I do
         wouldn't be possible without massive contribution to open source
-        projects.
+        projects and knowledge.
         <br />
         <br />
         To see the code running this page (and other services), click here:
